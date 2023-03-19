@@ -1,5 +1,8 @@
 # README
 
+## Entity Relationship Diagram
+![pizzas-api](https://user-images.githubusercontent.com/99965020/226153770-d3201988-c3e1-49bf-8a1f-acbe4180c3ee.png)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
