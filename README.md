@@ -21,9 +21,9 @@ March 19th, 2023
 
 ### Restaurants
 
-*1. GET /restaurants:* Returns a list of all restaurants in the database.
-*2. GET /restaurants/:id:* Returns details for a specific restaurant, including a list of its associated pizzas.
-*3. DELETE /restaurants/:id:* Deletes a restaurant and all of its associated RestaurantPizza records.
+1. GET /restaurants: Returns a list of all restaurants in the database.
+2. GET /restaurants/:id: Returns details for a specific restaurant, including a list of its associated pizzas.
+3. DELETE /restaurants/:id: Deletes a restaurant and all of its associated RestaurantPizza records.
 
 ### Pizzas
 
