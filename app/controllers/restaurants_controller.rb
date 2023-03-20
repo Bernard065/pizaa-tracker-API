@@ -4,12 +4,12 @@ class RestaurantsController < ApplicationController
 
     def index
         restaurants = Restaurant.all
-        render json: restaurants, status: :ok
+        render json: restaurants, each_serializer: RestaurantSerializer, status: :ok
     end
 
     def show
         restaurant = find_restaurant
-        render json: restaurant, include: :pizzas, status: :ok
+        render json: restaurant, serializer: RestaurantWithPizzasSerializer, status: :ok
     end
 
     def destroy
